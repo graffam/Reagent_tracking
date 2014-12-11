@@ -4,7 +4,7 @@ class Orders < ActiveRecord::Migration
         t.integer :user_id, null: false
         t.string :comment
         t.string :neededby
-        t.integer :item_id
+        t.string :status
 
         t.timestamps
     end

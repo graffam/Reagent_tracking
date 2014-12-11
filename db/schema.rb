@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20141211193849) do
     t.integer  "user_id",    null: false
     t.string   "comment"
     t.string   "neededby"
-    t.integer  "item_id"
+    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
